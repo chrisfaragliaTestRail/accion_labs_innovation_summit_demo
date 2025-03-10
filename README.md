@@ -9,7 +9,7 @@ This repository demonstrates the use of the TestRail CLI Code-First approach in 
 This demo showcases how to integrate TestRail's Code-First approach using the TestRail CLI with GitHub Actions to streamline test management and automation. It provides an example of how to define test cases in code and automatically sync them with TestRail.
 
 ## GitHub Actions Workflow
-The included GitHub Actions workflow (`.github/workflows/testrail.yml`) is triggered on the following events:
+The included GitHub Actions workflow (`.github/workflows/execute_cli.yml`) is triggered on the following events:
 - Push to the `main` branch
 - Any pull request to any branch
 - Manual trigger from the Actions tab
