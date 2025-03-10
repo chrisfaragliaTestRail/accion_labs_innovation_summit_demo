@@ -1,7 +1,7 @@
 # Accion Labs Innovation Summit - TestRail CLI Integration Demo
 
-![TestRail Logo](images/testrail_logo.png)
-![Summit Logo](images/summit_logo.png)
+![TestRail Logo](images/cli.png)
+![Summit Logo](images/summit.png)
 
 This repository demonstrates the use of the TestRail CLI Code-First approach in a conference demo setting. The project is configured to utilize GitHub Actions for CI/CD integration.
 
