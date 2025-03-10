@@ -1,6 +1,7 @@
 # Accion Labs Innovation Summit - TestRail CLI Integration Demo
 
 ![TestRail Logo](images/testrail_logo.png)
+![Summit Logo](images/summit_logo.png)
 
 This repository demonstrates the use of the TestRail CLI Code-First approach in a conference demo setting. The project is configured to utilize GitHub Actions for CI/CD integration.
 
@@ -15,4 +16,8 @@ The included GitHub Actions workflow (`.github/workflows/testrail.yml`) is trigg
 
 ### Workflow Highlights
 - **Setup:** Checks out the code and sets up Python
-- **TestRail C
+- **TestRail CLI Execution:** Installs the TestRail CLI (`trcli`) and uploads test results from a JUnit XML report
+- **Dynamic Run Information:** The test run title and description are dynamically populated using GitHub Actions environment variables
+
+## License
+This project is licensed under the MIT License.
