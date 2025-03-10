@@ -35,6 +35,6 @@ jobs:
             -u ${{ secrets.TESTRAIL_USER }} \
             -p "${{ secrets.TESTRAIL_USER_PW }}" \
             parse_junit \
-            -f "reports/junit-cypress-output.xml" \
+            -f "generated_results/test_suite.xml" \
             --title "Playwright GenAI Demo Tests" \
             --run-description "GitHub workflow: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
