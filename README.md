@@ -20,4 +20,4 @@ The included GitHub Actions workflow (`.github/workflows/execute_cli.yml`) is tr
 - **Dynamic Run Information:** The test run title and description are dynamically populated using GitHub Actions environment variables
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. 
