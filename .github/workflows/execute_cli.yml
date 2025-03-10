@@ -30,9 +30,9 @@ jobs:
         run: |
           pip install trcli
           trcli -y \
-            -h ${{ env.TESTRAIL_URL }} \
-            --project "${{ env.PROJECT_NAME }}" \
-            -u ${{ env.TESTRAIL_USER }} \
+            -h ${{ secrets.TESTRAIL_URL }} \
+            --project "${{ secrets.PROJECT_NAME }}" \
+            -u ${{ secrets.TESTRAIL_USER }} \
             -p "${{ secrets.TESTRAIL_USER_PW }}" \
             parse_junit \
             -f "reports/junit-cypress-output.xml" \
