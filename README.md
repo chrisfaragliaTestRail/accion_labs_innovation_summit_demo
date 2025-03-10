@@ -1,1 +1,1 @@
-# accion_labs_innovation_summit_demo
+# Accion Labs Innovation Summit - TestRail CLI Integration Demo
